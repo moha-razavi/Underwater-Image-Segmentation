@@ -1,13 +1,16 @@
-**Underwater Image Semantic Segmentation**
+# Underwater Image Semantic Segmentation
 
 This project is a university graphics-course assignment focused on underwater image semantic segmentation. It uses TensorFlow, a U-Net architecture with a VGG16 backbone, and is trained for 30 epochs. During training, the model generates a visualized mask output at the end of every epoch to track learning progress, the model saves predicted mask samples each epoch and compares it to the original image and true mask, showing the segmentation quality improving over time.
 
-**Dataset**
+
+## Dataset
 
 The project uses the SUIM (Semantic Underwater Image Segmentation) dataset, which provides underwater images and corresponding segmentation masks.
-Dataset link: https://irvlab.cs.umn.edu/resources/suim-dataset
+[Dataset Link](https://irvlab.cs.umn.edu/resources/suim-dataset)
 
-**Features**
+---
+
+## Features
 
 - U-Net model with VGG16 backbone
 - Simple data loading and preprocessing pipeline
@@ -15,3 +18,8 @@ Dataset link: https://irvlab.cs.umn.edu/resources/suim-dataset
 - Inference notebook
 - Testing the trained model
 - Contains an academic presentation file on marine image segmentation
+
+---
+
+## Licence 
+This project is released under the [MIT Licence](https://github.com/Rohibakhsh-Niloofar/Underwater-Image-Segmentation/blob/main/LICENSE)
