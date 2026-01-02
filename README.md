@@ -22,4 +22,4 @@ The project uses the SUIM (Semantic Underwater Image Segmentation) dataset, whic
 ---
 
 ## Licence 
-This project is released under the [MIT Licence](https://github.com/Rohibakhsh-Niloofar/Underwater-Image-Segmentation/blob/main/LICENSE)
+This project is released under the [MIT Licence](LICENSE)
